@@ -1,0 +1,217 @@
+.sectionOne {
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    background-image: url("src/assets/img/animation/PARLE.fr.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 50% 24%;
+    background-color: rgba(0, 255, 106, 0.431);
+    height: 100%;
+}
+
+h2 {
+    width: 100%;
+    font-size: 45px;
+    color: rgb(236, 236, 236);
+    transform: translateY(100px);
+    color: rgba(0, 0, 0, 0.883);
+}
+
+.btn {
+    word-break: keep-all;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(16, 128, 128);
+    position: relative;
+    top: 56vh;
+    color: aliceblue;
+    filter: drop-shadow(3px -67px 7px #0a0a0c7a);
+    border-radius: 5%;
+    border: transparent;
+}
+
+.martian {
+    position: absolute;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 80px;
+    width: 80px;
+    background-image: url('src/assets/img/animation/walking/skeleton-walking_0.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 65vh;
+    right: 0%;
+    opacity: 1;
+    filter: drop-shadow(3px -23px 1px #0a0a0c7a);
+    animation: monster 1s infinite;
+}
+
+@keyframes monster {
+    1% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_1.png');
+    }
+    5% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_2.png');
+    }
+    10% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_3.png');
+    }
+    15% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_4.png');
+    }
+    20% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_5.png');
+    }
+    25% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_6.png');
+    }
+    30% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_7.png');
+    }
+    35% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_8.png');
+    }
+    40% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_9.png');
+    }
+    45% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_10.png');
+    }
+    50% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_11.png');
+    }
+    55% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_12.png');
+    }
+    60% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_13.png');
+    }
+    70% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_14.png');
+    }
+    75% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_15.png');
+    }
+    80% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_16.png');
+    }
+    85% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_17.png');
+    }
+    90% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_18.png');
+    }
+    95% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_19.png');
+    }
+    100% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_0.png');
+    }
+    110% {
+        background-image: url('src/assets/img/animation/walking/skeleton-walking_1.png');
+    }
+}
+
+.move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    animation: monsterMove 15s infinite normal;
+}
+
+@keyframes monsterMove {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.sol {
+    height: 43vh;
+    width: 100%;
+    background: rgb(29, 13, 26);
+    background: linear-gradient(0deg, rgb(29, 14, 26) 0%, rgba(26, 14, 26, 0.9) 35%, rgba(27, 25, 25, 0.877) 100%);
+    margin-top: 70vh;
+}
+
+.rocheVert {
+    position: absolute;
+    height: 40vh;
+    background-size: cover;
+    top: 77vh;
+    left: 4vh;
+    filter: drop-shadow(3px -67px 7px #0a0a0c7a);
+}
+
+.rocheMarron {
+    position: absolute;
+    height: 40vh;
+    right: 4vh;
+    top: 93vh;
+    transform: rotate(4deg);
+    margin: 0;
+    filter: drop-shadow(3px -45px 10px #0a0a0c7a);
+}
+
+.rocheGris {
+    position: absolute;
+    height: 4vh;
+    right: 67vh;
+    top: 110vh;
+    transform: rotate(4deg);
+    margin: 0;
+    filter: drop-shadow(3px -12px 1px #0a0a0c7a);
+}
+
+.rocheGris2 {
+    position: absolute;
+    height: 7vh;
+    right: 90vh;
+    top: 115vh;
+    transform: rotate(4deg);
+    margin: 0;
+    filter: drop-shadow(3px -12px 1px #0a0a0c7a);
+}
+
+.rocheGris3 {
+    position: absolute;
+    height: 4vh;
+    left: 67vh;
+    top: 119vh;
+    transform: rotate(4deg);
+    margin: 0;
+    filter: drop-shadow(3px -12px 1px #0a0a0c7a);
+}
+
+.rocheGris4 {
+    position: absolute;
+    height: 4vh;
+    left: 167vh;
+    top: 97vh;
+    transform: rotate(4deg);
+    margin: 0;
+    filter: drop-shadow(3px -12px 1px #0a0a0c7a);
+}
+
+.rocheBleu {
+    position: absolute;
+    height: 25vh;
+    background-size: cover;
+    top: 80vh;
+    left: 67vh;
+    filter: drop-shadow(3px -67px 7px #0a0a0c7a);
+}
+
+.foot {
+    height: 10vh;
+    width: 100%;
+    background-color: #211620;
+    color: transparent;
+}
